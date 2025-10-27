@@ -13,7 +13,6 @@ namespace BasicFacebookFeatures
             FavoritePages
         }
 
-        // $G$ CSS-013 (-3) Bad input variable name (should be in the form of i_PascalCased)
         public IFacebookManager CreateManager(ManagerType managerType, params object[] args)
         {
             IFacebookManager manager = null;

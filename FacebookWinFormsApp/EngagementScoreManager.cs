@@ -15,7 +15,6 @@ namespace BasicFacebookFeatures
             Post = 5,
         }
         private static EngagementScoreManager s_Instance = null;
-        // $G$ CSS-004 (-3) Bad static readonly members variable name (should be in the form of sr_PamelCase).
         private static readonly object s_Lock = new object();
 
         private TextBox m_EngagementScore;

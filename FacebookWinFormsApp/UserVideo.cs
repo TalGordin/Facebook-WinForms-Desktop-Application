@@ -6,9 +6,7 @@ namespace BasicFacebookFeatures
 {
     internal class UserVideo : IMediaItem
     {
-        // $G$ CSS-014 (-3) Bad property name (should be in the form of: CamelCase).
         private UserPhoto m_Thumbnail { get; }
-        // $G$ CSS-014 (-3) Bad property name (should be in the form of: CamelCase).
         public string m_VideoURL { get; }
         public DateTime m_CreatedTime { get; }
 

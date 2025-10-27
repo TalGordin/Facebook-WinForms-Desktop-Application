@@ -6,7 +6,6 @@ using FacebookWrapper.ObjectModel;
 
 namespace BasicFacebookFeatures
 {
-    // $G$ DSN-999 (-10) You should implement a sealed class to ensure the Singleton pattern (common to all the managers singletons)
     public class BirthdayStatsManager : IFacebookManager
     {
         private static BirthdayStatsManager s_Instance = null; //Singleton instance

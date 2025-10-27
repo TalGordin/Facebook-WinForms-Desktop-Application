@@ -6,9 +6,7 @@ namespace BasicFacebookFeatures
 {
     public class UserPhoto : IMediaItem
     {
-        // $G$ CSS-014 (-3) Bad property name (should be in the form of: CamelCase).
         public string m_PictureURL { get; }
-        // $G$ CSS-014 (-3) Bad property name (should be in the form of: CamelCase).
         public DateTime m_CreatedTime { get; }
 
         public UserPhoto(Photo i_Photo)

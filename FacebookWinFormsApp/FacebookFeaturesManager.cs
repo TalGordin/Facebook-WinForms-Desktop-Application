@@ -9,7 +9,6 @@ namespace BasicFacebookFeatures
     public class FacebookFeaturesManager : IFacebookManager
     {
         private static FacebookFeaturesManager s_Instance = null;
-        // $G$ CSS-004 (-3) Bad static readonly members variable name (should be in the form of sr_PamelCase).
         private static readonly object s_Lock = new object();
         private System.Windows.Forms.BindingSource friendsListBindingSource;
         private TextBox m_NewPostBox;
